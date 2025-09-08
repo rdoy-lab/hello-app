@@ -1,3 +1,4 @@
 Flask>=3.1.0
 opentelemetry-distro
 opentelemetry-exporter-otlp
+requests>=2.31.0
