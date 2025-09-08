@@ -10,7 +10,7 @@ def hello_world():
     
     try:
         # Make request to ip-api.com to get ISP information
-        response = requests.get(f"https://ip-api.com/json/{ip}")
+        response = requests.get(f"http://ip-api.com/json/{ip}")
         data = response.json()
         
         # Extract ISP information
